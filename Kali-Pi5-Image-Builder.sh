@@ -1,5 +1,6 @@
 #!/bin/bash
-
+git clone https://gitlab.com/kalilinux/build-scripts/kali-arm
+cd kali-arm/
 cat << "EOF"
 
              ,----------------,              ,---------,
