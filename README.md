@@ -8,6 +8,30 @@ Welcome to the Kali Pi5 Image Builder repository! This script automates the crea
 ```bash
 #!/bin/bash
 
+cat << "EOF"
+
+             ,----------------,              ,---------,
+        ,-----------------------,          ,"        ,"|
+      ,"                      ,"|        ,"        ,"  |
+     +-----------------------+  |      ,"        ,"    |
+     |  .-----------------.  |  |     +---------+      |
+     |  |                 |  |  |     | -==----'|      |
+     |  |  HackProKP!     |  |  |     |         |      |
+     |  |  Hack The World |  |  |/----|`---=    |      |
+     |  |  C:\>_          |  |  |   ,/|==== ooo |      ;
+     |  |                 |  |  |  // |(((( [33]|    ,"
+     |  `-----------------'  |," .;'| |((((     |  ,"
+     +-----------------------+  ;;  | |         |,"     
+        /_)______________(_/  //'   | +---------+
+   ___________________________/___  `,
+  /  oooooooooooooooo  .o.  oooo /,   \,"-----------
+ / ==ooooooooooooooo==.o.  ooo= //   ,`\--{)B     ,"
+/_==__==========__==_ooo__ooo=_/'   /___________,"
+`-----------------------------'
+GitHub: https://github.com/at0m-b0mb/Kali-Pi5-Image-Builder/    
+HackProKP - Kailash Parshad
+
+EOF
 # Check if the script is running as root
 if [ "$EUID" -ne 0 ]; then
   echo "Please run this script as root."
