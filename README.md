@@ -213,17 +213,17 @@ sudo bash Kali-Pi5-Image-Builder.sh
 **Note**: Ensure that you have the necessary permissions to execute the scripts with sudo. If not, run the scripts as the root user.
 
 ## Prerequisites
--Raspberry Pi 5
--Internet connection for downloading dependencies (Data Usage ~10-12GB)
--You will need a Linux Physical machine or VM **at least 8GB of RAM or use SWAP file**
--Basic understanding of Kali Linux and Raspberry Pi
+- Raspberry Pi 5
+- Internet connection for downloading dependencies (Data Usage ~10-12GB)
+- You will need a Linux Physical machine or VM **at least 8GB of RAM or use SWAP file**
+- Basic understanding of Kali Linux and Raspberry Pi
 
 ## Building :
--Depending on your system hardware & network connectivity, will depend on how long it will take to build (4 core CPU, 8GB RAM, SSD inside a VM takes using a local repo about 100 minutes per script)
+- Depending on your system hardware & network connectivity, will depend on how long it will take to build (4 core CPU, 8GB RAM, SSD inside a VM takes using a local repo about 100 minutes per script)
 
--On x64 systems, after the script finishes running, you will have an image file located in `~/kali-arm/images/` called `kali-linux-2023.3-rpi-armhf.img.xz`
+- On x64 systems, after the script finishes running, you will have an image file located in `~/kali-arm/images/` called `kali-linux-2023.3-rpi-armhf.img.xz`
 
--On x86 systems, as they do not have enough RAM to compress the image, after the script finishes running, you will have an image file located in `~/kali-arm/images/` called `kali-linux-2023.3-rpi-armhf.img`
+- On x86 systems, as they do not have enough RAM to compress the image, after the script finishes running, you will have an image file located in `~/kali-arm/images/` called `kali-linux-2023.3-rpi-armhf.img`
 
-  -Should you want to try and shrink the file to make it easier to distribute, you will need to use your own preferred compression.
+  - Should you want to try and shrink the file to make it easier to distribute, you will need to use your own preferred compression.
 
