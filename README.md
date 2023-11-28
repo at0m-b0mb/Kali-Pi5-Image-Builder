@@ -210,7 +210,7 @@ sudo bash GUI_Kali-Pi5-Image-Builder.sh
 ```shell 
 sudo bash Kali-Pi5-Image-Builder.sh
 ```
-###**Note**: Ensure that you have the necessary permissions to execute the scripts with **sudo**. If not, run the scripts as the **root user**.
+##Note: Ensure that you have the necessary permissions to execute the scripts with **sudo**. If not, run the scripts as the **root user**.
 
 ##Prerequisites
 -Raspberry Pi 5
