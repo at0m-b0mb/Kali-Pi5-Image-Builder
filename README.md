@@ -118,6 +118,8 @@ case $desktop_choice in
     ;;
 esac
 
+#Installs all required dependencies.
+./common.d/build_deps.sh
 # Run the Raspberry Pi 5 script with specified options
 echo "Running the Raspberry Pi 5 script with architecture: $arch and desktop: $desktop."
 sudo ./raspberry-pi5.sh --arch $arch --desktop $desktop
