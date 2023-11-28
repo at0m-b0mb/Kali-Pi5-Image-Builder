@@ -210,10 +210,11 @@ sudo bash GUI_Kali-Pi5-Image-Builder.sh
 ```shell 
 sudo bash Kali-Pi5-Image-Builder.sh
 ```
-##Note: Ensure that you have the necessary permissions to execute the scripts with **sudo**. If not, run the scripts as the **root user**.
+**Note**: Ensure that you have the necessary permissions to execute the scripts with sudo. If not, run the scripts as the root user.
 
 ##Prerequisites
 -Raspberry Pi 5
 -Internet connection for downloading dependencies (Data Usage ~10-12GB)
 -You will need a Linux Physical machine or VM **at least 8GB of RAM or use SWAP file**
 -Basic understanding of Kali Linux and Raspberry Pi
+
