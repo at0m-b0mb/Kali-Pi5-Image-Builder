@@ -214,7 +214,7 @@ sudo bash Kali-Pi5-Image-Builder.sh
 
 ## Prerequisites
 - Raspberry Pi 5
-- Internet connection for downloading dependencies (Data Usage ~10-12GB)
+- Internet connection for downloading dependencies
 - You will need a Linux Physical machine or VM **at least 8GB of RAM or use SWAP file**
 - Basic understanding of Kali Linux and Raspberry Pi
 
