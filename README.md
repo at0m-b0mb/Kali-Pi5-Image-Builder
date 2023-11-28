@@ -114,11 +114,11 @@ Choose the appropriate script based on your preference:
 - Runs in the command line for users who prefer a text-based interface.
 - Execute the script:
 ```shell
-  git clone https://github.com/at0m-b0mb/Kali-Pi5-Image-Builder.git
-  cd Kali-Pi5-Image-Builder
-  dos2unix Kali-Pi5-Image-Builder.sh
-  sudo bash Kali-Pi5-Image-Builder.sh
-  ```
+git clone https://github.com/at0m-b0mb/Kali-Pi5-Image-Builder.git
+cd Kali-Pi5-Image-Builder
+dos2unix Kali-Pi5-Image-Builder.sh
+sudo bash Kali-Pi5-Image-Builder.sh
+```
 **Note**: Ensure that you have the necessary permissions to execute the scripts with sudo. If not, run the scripts as the root user.
 
 ## Prerequisites
