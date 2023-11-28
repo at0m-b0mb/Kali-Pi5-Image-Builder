@@ -7,7 +7,8 @@ Welcome to the Kali Pi5 Image Builder repository! This script automates the crea
 ### Script 1: CLI Version
 ```bash
 #!/bin/bash
-
+git clone https://gitlab.com/kalilinux/build-scripts/kali-arm
+cd kali-arm/
 cat << "EOF"
 
              ,----------------,              ,---------,
