@@ -114,6 +114,7 @@ Choose the appropriate script based on your preference:
 -Runs in the command line for users who prefer a text-based interface.
 -Execute the script:
 ```shell
+cd Kali-Pi5-Image-Builder 
 sudo apt-get install dos2unix
 dos2unix Kali-Pi5-Image-Builder.sh
 sudo bash Kali-Pi5-Image-Builder.sh
