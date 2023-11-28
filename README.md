@@ -111,14 +111,14 @@ rpi-imager
 Choose the appropriate script based on your preference:
 
 ### Script 1: CLI Version
--Runs in the command line for users who prefer a text-based interface.
--Execute the script:
-```shell
-cd Kali-Pi5-Image-Builder 
-sudo apt-get install dos2unix
-dos2unix Kali-Pi5-Image-Builder.sh
-sudo bash Kali-Pi5-Image-Builder.sh
-```
+- Runs in the command line for users who prefer a text-based interface.
+- Execute the script:
+-  ```shell
+  cd Kali-Pi5-Image-Builder 
+  sudo apt-get install dos2unix
+  dos2unix Kali-Pi5-Image-Builder.sh
+  sudo bash Kali-Pi5-Image-Builder.sh
+  ```
 **Note**: Ensure that you have the necessary permissions to execute the scripts with sudo. If not, run the scripts as the root user.
 
 ## Prerequisites
