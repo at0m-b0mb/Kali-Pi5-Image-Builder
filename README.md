@@ -15,7 +15,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # Ask the user if they watched a YouTube tutorial
-read -p "Did you watch a YouTube tutorial for help? (yes/no): " watched_tutorial
+read -p "Do you want to watch a YouTube tutorial for help? (yes/no): " watched_tutorial
 
 if [ "$watched_tutorial" == "yes" ]; then
   youtube_link="https://www.youtube.com/"
