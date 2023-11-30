@@ -141,8 +141,10 @@ Choose the appropriate script based on your preference:
 - Runs in the command line for users who prefer a text-based interface.
 - Execute the script:
 ```shell
+sudo apt install git -y
 git clone https://github.com/at0m-b0mb/Kali-Pi5-Image-Builder.git
 cd Kali-Pi5-Image-Builder
+sudo apt install dos2unix -y
 dos2unix Kali-Pi5-Image-Builder.sh
 sudo bash Kali-Pi5-Image-Builder.sh
 ```
