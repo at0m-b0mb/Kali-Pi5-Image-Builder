@@ -43,7 +43,7 @@ fi
 read -p "Do you want to watch an Official YouTube tutorial for help? (yes/no): " watched_tutorial
 
 if [ "$watched_tutorial" == "yes" ]; then
-  youtube_link="https://www.youtube.com/"
+  youtube_link="https://youtu.be/OFhGR3u92sE"
   echo "Opening the YouTube tutorial..."
   xdg-open $youtube_link
 fi
